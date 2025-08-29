@@ -1,0 +1,19 @@
+name: text-recognition
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9 # Or your desired Python version
+  - pytorch # Or your desired PyTorch version
+  - torchvision # Or your desired torchvision version
+  - torchaudio # Or your desired torchaudio version
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - pip
+  - pip:
+    - datasets # Another example pip dependency
+    - tqdm # Pinning a specific pip package version
+    - -r requirements.txt
